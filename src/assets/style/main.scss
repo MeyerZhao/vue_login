@@ -1,0 +1,38 @@
+@import '../../lib/hotcss/px2rem.scss';
+
+$primary: #42B983;
+$secondary: #42B983;
+$danger: #b82828;
+$white: #fff;
+
+$text-main: #000;
+$text-sub: #757575;
+
+$src-bg: #fafafa;
+
+
+
+$font-size-large: px2rem(36);
+$font-size-middle: px2rem(28);
+$font-size-base: px2rem(24);
+$font-size-small: px2rem(22);
+
+
+
+.btn {
+    display: inline-block;
+    padding: px2rem(22) px2rem(28);
+    margin-bottom: 0;
+    font-size: $font-size-middle;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
